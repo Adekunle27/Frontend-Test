@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f2f5;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.body {
+  position: absolute;
+  top: 10rem;
+  left: 40rem;
+  padding: 6rem;
+  background: #19f;
+  min-height: 40rem;
+}
