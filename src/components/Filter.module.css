@@ -1,0 +1,30 @@
+.filter__container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.filter__container .order__title {
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+button {
+  display: flex;
+  background: #eee8f2;
+  padding: 16px 24px;
+  background: #3e0563;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #3e0563;
+  background-color: #fff;
+  transition: all 1.5s ease;
+}
