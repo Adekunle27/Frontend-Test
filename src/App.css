@@ -19,17 +19,17 @@ body {
   left: 40rem;
   padding: 3rem;
   /* background: rgba(54, 130, 188, 0.792); */
-  min-height: 40rem;
+  max-height: 40rem;
   max-width: 60rem;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 
 .orders {
-  padding: 16px 0 10px 0;
+  padding-top: 16px 0 8px 0;
   background: transparent;
   /* margin-top: 1rem;
   margin-bottom: 0.1rem; */
-  margin: 1rem 0 0.5rem 0;
+  margin: 1rem 0 0rem 0;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -44,9 +44,45 @@ body {
   text-align: center;
 }
 
-.right__date {
+.right__data {
   background: #f1f2f5;
   /* padding: 16px 24px; */
   padding-left: 16px;
   width: 100%;
+}
+
+.filter__container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.filter__container .order__title {
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+button {
+  display: flex;
+  background: #eee8f2;
+  padding: 16px 24px;
+  background: #fff;
+  color: #000;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #3e0563;
+  background-color: #fff;
+  transition: all 1.5s ease;
+}
+
+button.active {
+  background: #3e0563;
+  color: #fff;
 }
