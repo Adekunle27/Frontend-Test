@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Outfit:wght@100;400;500&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
-  background-color: #8591b3;
+  /* background-color: #8591b3; */
+  background-color: #5c0067;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 .container {
@@ -15,11 +20,13 @@ body {
 
 .app__body {
   position: absolute;
-  top: 10rem;
-  left: 40rem;
+  top: 8.5rem;
+  left: 35rem;
   padding: 3rem;
   /* background: rgba(54, 130, 188, 0.792); */
-  max-height: 40rem;
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.4);
+  background: #1e93ad;
+  max-height: 45rem;
   max-width: 60rem;
   overflow-y: scroll;
 }
